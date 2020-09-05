@@ -1,0 +1,5 @@
+docker build . -t [name]:[tag]
+docke run -p port:3000 [name]:[tag]
+
+// For using private repositories.
+https://itnext.io/building-docker-images-from-private-git-repositories-using-ssh-login-433edf5a18f2
